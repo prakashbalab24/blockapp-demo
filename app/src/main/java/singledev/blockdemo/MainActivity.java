@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
             Intent i = new Intent(this,BlockedActivity.class);
             startActivity(i);
         }
-        Log.e("ForegroundApp", "Current App in foreground is: " + currentApp);
+        Log.i("ForegroundApp", "Current App in foreground is: " + currentApp);
     }
 
 
